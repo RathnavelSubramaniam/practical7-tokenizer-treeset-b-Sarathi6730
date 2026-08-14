@@ -8,7 +8,8 @@ public static void main(String[] args)
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter a line of text");
     String inputText = scanner.nextLine();
-    String[] tokens = inputText.split("//s+");
+    // String[] tokens = inputText.split("//s+");
+    String[] tokens = inputText.split("\\s+");
     TreeSet<String> tokenSet = new TreeSet<>();
     for (int i=0; i <tokens.length; i++)
     {
