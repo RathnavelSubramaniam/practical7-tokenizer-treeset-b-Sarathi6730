@@ -19,6 +19,7 @@ public static void main(String[] args)
     for (String token : tokenSet) {
         System.out.println(token);
     }
+    
     scanner.close();
 }
 }
